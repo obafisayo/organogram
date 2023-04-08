@@ -229,6 +229,7 @@ body{
         "r r r r"
         "f f f f"
         ;
+        overflow-x: hidden;
     }
     .about{
         padding: 0px 16px 0px 16px;
@@ -275,7 +276,7 @@ body{
         margin-top: 60px;
     }
     .all{
-        width: 365px;
+        width: 90vw;
         height: 364px;
         display: grid;
         grid-template-rows: 1fr;

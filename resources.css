@@ -136,6 +136,9 @@ body{
     .resources{
         padding: 0px 16px 0px 16px;
         height: 1950px;
+        text-align: start;
+        align-items: start;
+        justify-content: center;
     }
     .res{
         height: 140px;
@@ -145,9 +148,6 @@ body{
     }
     .slide2{
         display: none;
-    }
-    .slide1{
-        width: fit-content;
     }
     .all{
         flex-direction: column;

@@ -131,6 +131,7 @@ body{
         "r r r r"
         "f f f f"
         ;
+        overflow-x: hidden;
     }
     .resources{
         padding: 0px 16px 0px 16px;
@@ -140,30 +141,37 @@ body{
         height: 140px;
         text-align: start;
         align-items: start;
+        justify-content: center;
     }
     .slide2{
         display: none;
     }
+    .slide1{
+        width: fit-content;
+    }
     .all{
         flex-direction: column;
-        /* height: 1823px; */
         gap: 30px;
     }
     .first{
-        width: 343px;
-        height: 370px;
+        width: 90vw;
+        height: fit-content;
+        padding-bottom: 30px;
     }
     .second{
-        width: 343px;
-        height: 370px;
+        width: 90vw;
+        height: fit-content;
+        padding-bottom: 30px;
     }
     .third{
-        width: 343px;
-        height: 370px;
+        width: 90vw;
+        height: fit-content;
+        padding-bottom: 30px;
     }
     .fourth{
-        width: 343px;
-        height: 370px;
+        width: 90vw;
+        height: fit-content;
+        padding-bottom: 30px;
     }
     .img1{
         height: 163px;

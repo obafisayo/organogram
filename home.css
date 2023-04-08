@@ -1,0 +1,314 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    color: rgba(44, 44, 44, 1);
+    font-size: 14px;
+}
+body{
+    display: grid;
+    column-gap: 24px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    place-content: center;
+    grid-template-areas: 
+    "n n n n n n n n n n n n"
+    "o o o o o o o o o o o o"
+    "w w w w w w w w w w w w"
+    "a a a a a a a a a a a a"
+    "r r r r r r r r r r r r"
+    "f f f f f f f f f f f f"
+    ;
+}
+.organogram{
+    padding: 0px 100px 0px 100px;
+    grid-area: o;
+    height: 517px;
+    background-color: rgba(227, 240, 255, 1);
+    display: flex;
+    gap: 30px;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(Frame\ 8.png); */
+}
+.tx1{
+    font-weight: bold;
+    font-size: 72px;
+    letter-spacing: -2%;
+}
+.bt1{
+    width: fit-content;
+    color: white;
+    border: none;
+    border-radius: 51px;
+    background-color: rgba(0, 106, 253, 1);
+    padding: 14px 28px;
+    font-size: 14px;
+}
+.what-we-offer{
+    height: 850px;
+    grid-area: w;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(249, 250, 251, 1);
+}
+.tx3{
+    font-weight: bold;
+    font-size: 36px;
+}
+.tx4{
+    opacity: 0.9;
+}
+.total{
+    margin-top: 20px;
+    padding: 0px 100px 0px 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 24px;
+    text-align: start;
+}
+.img1{
+    width: 100%;
+}
+
+.t3{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.t2{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.pa{
+    font-weight: bolder;
+    font-size: 24px;
+    line-height: 32px;
+}
+.pi{
+    opacity: 0.9;
+    line-height: 20px;
+}
+.bl{
+    font-weight:560;
+    color:  rgba(0, 106, 253, 0.9);
+}
+.one{
+    background-color: white;
+    height: 540px;
+    border-radius: 10px;
+}
+.two{
+    background-color: white;
+    height: 540px;
+    border-radius: 10px;
+}
+.about{
+    height: 710px;
+    grid-area: a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px 0px 100px;
+}
+.img2{
+    width: 58%;
+}
+.tx5{
+    font-size: 36px;
+    font-weight: bold;
+}
+.tx6{
+    opacity: 0.9;
+}
+.three{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.resources{
+    height: 550px;
+    background-color: rgba(249, 250, 251, 1);
+    grid-area: r;
+    padding: 95px 100px 18px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.ff{
+    display: flex;
+    justify-content: space-between
+}
+.four{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.all{
+    display: flex;
+    column-gap: 24px;
+    margin-top: 60px;
+}
+.t1{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 0px 20px;
+    gap: 20px;
+}
+.para{
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 30px;
+}
+.par{
+    opacity: 0.8;
+    font-size: 12px;
+    line-height: 18px;
+}
+.img4{
+    width: 100%;
+    border-radius: 8px 8px 0px 0px;
+}
+.first{
+    height: 320px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid rgba(128, 128, 128, 0.202);
+}
+.second{
+    height: 320px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid rgba(128, 128, 128, 0.202);
+}
+.third{
+    height: 320px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid rgba(128, 128, 128, 0.202);
+}
+.fourth{
+    height: 320px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid rgba(128, 128, 128, 0.202);
+}
+
+
+@media screen and (max-width: 400px){
+    ::-webkit-scrollbar{
+        display: none;
+    }
+    body{
+        /* background-color: red; */
+        display: grid;
+        column-gap: 20px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        place-content: center;
+        grid-template-areas: 
+        "n n n n"
+        "o o o o"
+        "w w w w"
+        "a a a a"
+        "r r r r"
+        "f f f f"
+        ;
+    }
+    .organogram{
+        padding: 18px 16px 18px 16px;
+    }
+    .tx1{
+        font-weight: bold;
+        font-size: 48px;
+        letter-spacing: -2%;
+    }
+    .what-we-offer{
+        padding: 0px 16px 18px 16px;
+        height: 1201px;
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .tx3{
+        font-weight: bold;
+        font-size: 24px;
+    }
+    .total{
+        padding: 0;
+        display: block;
+    }
+    .one{
+        height: 423px;
+        margin-bottom: 50px;
+    }
+    .two{
+        height: 423px;
+    }
+    .about{
+        flex-direction: column;
+        padding: 18px 16px 0px 16px;
+        height: 654px;
+        justify-content: center;
+        gap: 40px;
+    }
+    .img2{
+        width: 100%;
+    }
+    .resources{
+        padding: 0px 16px 0px 16px;
+        height: 750px;
+        justify-content: center;
+    }
+    .ff{
+        flex-direction: column;
+    }
+    .ff > .bl {
+        margin-left: 30px ;
+        margin-top: 60px;
+    }
+    .all{
+        width: 365px;
+        height: 364px;
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 24px;
+        grid-template-areas: 
+        "ft se th fh"
+        ;
+        overflow-x: scroll;
+    }
+    .first{
+        width: 292px;
+        height: 341px;
+        grid-area: ft;
+    }
+    .second{
+        width: 292px;
+        height: 341px;
+        grid-area: se;
+    }
+    .third{
+        width: 292px;
+        height: 341px;
+        grid-area: th;
+    }
+    .fourth{
+        width: 292px;
+        height: 341px;
+        grid-area: fh;
+    }
+    
+}

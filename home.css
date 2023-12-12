@@ -19,7 +19,7 @@ body{
     ;
 }
 .organogram{
-    padding: 0px 100px 0px 100px;
+    padding: 0px 0px 0px 0px;
     grid-area: o;
     height: 517px;
     background-color: rgba(227, 240, 255, 1);
